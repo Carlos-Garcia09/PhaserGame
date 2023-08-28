@@ -28,7 +28,7 @@ create(){
     if (Phaser.Math.Between(0,10)>5){
         velocity = 0 - velocity;
     }
-    this.ball.setVelocity(velocity,550);
+    this.ball.setVelocity(velocity,350);
 
     this.physics.add.collider(this.ball, this.platform);
     this.ball.setBounce(1);    
